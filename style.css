@@ -71,11 +71,17 @@ hr{
 
 ul{
   font-family:'Asap', sans-serif;
-  color: #303036 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px
 }
 ol{
   font-family: "Asap", sans-serif;
-  color: #303036
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
 }
 
 /*stuf to define link colors*/
