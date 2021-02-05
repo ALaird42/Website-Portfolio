@@ -1,0 +1,85 @@
+
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  line-height: 10px;
+  font-family: 'Acme', sans-serif
+}
+
+h2{
+text-align: center;
+  line-height:8px;
+  font-family: 'Neucha', sans-serif;
+  font-size: 30px
+}
+
+h3{
+  text-align: center;
+  line-height:12px;
+  font-family: 'Neucha', sans-serif
+}
+
+h4{
+  font-family: 'Neucha', sans-serif;
+}
+
+p{
+  font-family: 'Asap', sans-serif;
+  line-height: 1.25;
+  padding: 2px;
+}
+
+h1, h2, h3, p{
+  text-align: center;
+}
+
+img{
+  margin: auto;
+  display: block;
+  padding: 20px;
+}
+
+body{
+  background-color: #303036
+}
+
+hr{
+  display: block;
+  height: 5px;
+   border: 0;
+   width: 500px;
+   border-top: 3px solid #303036;
+}
+
+.header-footer{
+  background-color: #8fa9b7;
+  padding: 3px;
+  border: 3px solid #303036;
+}
+
+.main{
+  background-color: #d8c86e;
+  padding: 3px;
+  border: 5px solid #303036;
+  padding: 18px;
+}
+
+.img-display{
+  border-radius: 12%
+}
+
+ul{
+  font-family:'Asap', sans-serif;
+  color: #303036 
+}
+ol{
+  font-family: "Asap", sans-serif;
+  color: #303036
+}
+
+/*stuf to define link colors*/
+a:link        {color: #2A7f62}
+a:visitied    {color: #303036}
+a:hover       {color: indigo}
+a:active      {color: lightgrey}
