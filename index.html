@@ -12,62 +12,141 @@
 
   <body>
     <header>
-      <div class="header-footer">
-          <h1> Adam Laird </h1>
-          <h3>Musician, Aspiring Coder, and Teacher.</h3>
-      </div>
+      <section>
+        <div class = "group">
+          <div class="header-footer">
+                <div class = "item"><h1> Adam Laird </h1></div>
+                <div class = "item"><h3>Musician, Aspiring Coder, and Teacher.</h3></div>
+          </div>
+        </div>
+      </section>
     </header>
+
+    <section>
+      <div class = "group">
+
+        <nav>
+          <ul id ="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </section>
 
     <main>
       <div class="main">
 
         <img src="images/conducting-at-dgs.jpg" width="400"  alt="Adam conducting a band." class="img-display">
 
-        <section>
-          <h2>Welcome!</h2>
-          <p>Thanks for visiting my software development portfolio!</p>
-          <p>I am from the Chicago suburbs.</p>
+        <section id = "home">
+          <div class = "group">
+            <div class = "item"><h2>Welcome!</h2></div>
+            <div class = "item">
+              <p>Thanks for visiting my software development portfolio!</p>
+              <p>I am from the Chicago suburbs.</p>
+            </div>
+          </div>
         </section>
 
         <hr>
 
-        <section>
-          <h2>About Me</h2>
-          <p>I graduated from the University of Illinois U-C in 2017, with a degree in Music Education. I taught classroom music during the 2017-2018 school year. Since then I have bounced around to many areas of the classical music industry, including musical instrument repair, retail, and teaching private lessons.</p>
-          
-          <p>I decided to make the change into software during the COVID-19 pandemic when the entertainment industry was hit particularly hard by the lockdowns and social distancing restrictions. While I still love and enjoy musical performance and teaching, I decided to move away from it as a career, and into something more stable, engaging, and fulfilling.</p> 
+        <section id = "about">
+          <div class = "group">
+            <div class = "item"><h2>About Me</h2></div>
+            <div class = "item"><p>I graduated from the University of Illinois U-C in 2017, with a degree in Music Education. I taught classroom music during the 2017-2018 school year. Since then I have bounced around to many areas of the classical music industry, including musical instrument repair, retail, and teaching private lessons (which I still do).
+              I find the tailoring of my teaching to my individual students to be fun, rewarding, and a better application of my skills as an educator.
+            </p>
+            
+              <p>I decided to make the change into software during the COVID-19 pandemic when the entertainment industry was hit particularly hard by the lockdowns and social distancing restrictions. While I still love and enjoy musical performance and teaching, I decided to move away from it as a career, and into something more stable, engaging, and fulfilling.
+                I belive working with code will give me the changes I am looking for, while still presenting fun and exciting new challenges and opportunites for personal growth.</p> 
 
-          <p> I really enjoy working as a part of a team and getting to flex my creative muscles. Software development seemed like a no brainer for both of those!</p>
+              <p> I really enjoy working as a part of a team and getting to flex my creative muscles. Software development seemed like a no brainer for both of those!</p>
+            
+            </div>
 
-          <p>Outside of work and teaching, I like to:</p>
-          <ul>
-            <li>Spend time with family and friends</li>
-            <li>Watch movies (mostly action and comedy)</li>
-            <li>Play videogames</li>
-            <li>3D print ridiculous props and goofy things</li>
-          </ul>
+            <div class = "item"><p>Outside of work and teaching, I like to:</p>
+              <ul>
+                <li>Spend time with family and friends</li>
+                <li>Watch movies (mostly action and comedy)</li>
+                <li>Play videogames</li>
+                <li>3D print ridiculous props and goofy things</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <hr>
 
-        <section>
-          <h2>Let's get in touch!</h2>
-          <p> Thanks for visiting my site! Please feel free to check out my GitHub and connect with me on LinkedIn!</p>
-          <ol>
-            <li> 
-              <a href="https://linkedin.com/in/adam-laird-4434b7189">LinkedIn</a>
-            </li>
-            <li>
-              <a href="https://github.com/ALaird42">GitHub</a>
-            </li> 
-          </ol>
+        <secton id = "projects">
+          <div class = "group">
+            <div class = "item"><h2>Projects</h2></div>
+            <div class = "item"><h3>Content coming! Check back soon!</h3></div>
+          </div>
+        </secton>
+
+        <hr>
+
+        <section id = "contact">
+          <div class = "group">
+            <div class = "item"><h2>Let's get in touch!</h2></div>
+            <div class = "item">
+              <p> Thanks for visiting my site! Please feel free to check out my GitHub and connect with me on LinkedIn!</p>
+              <p>Or, reach out to me directly via email or the form below!</p>
+            <ol>
+              <li> 
+                <a href="https://linkedin.com/in/adam-laird-4434b7189">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://github.com/ALaird42">GitHub</a>
+              </li>
+              <li>
+                <a href = "mailto:adam_laird42@yahoo.com">Email</a></div>
+              </li> 
+            </ol>
+            </div>
+            <div class = "group">
+              <div class = "item">
+                  <form action="https://formspree.io/f/mayawdeb" method ="post">
+                      <label for="name">Name:</label> 
+                      <input id="name" type="text" name="name" required placeholder="Type your name here.">
+
+                      <label for="user-email">Email:</label>
+                      <input id="user-email" type="text" name= "email" required placeholder="joe.smith@randomaccess.rando">
+
+                      <label for="user-message">Message:</label>
+                      <textarea id="user-message" name="message"></textarea>
+                      <button type="submit">Submit</button>
+                  </form>
+              </div>
+          </div>
+      </section>
+          </div>
         </section>
+
       </div>
+
     </main>
 
     <footer>
-      <div  class="header-footer">
-        <h4>&copy Adam Laird</h4>
+      <div class = "group">
+        <div class = "footer-nav">
+          <ul id ="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div  class="header-footer">
+          <div class = "item">
+            <a href = "https://sites.google.com/view/lairdmusiclessons/home">Laird Music Lessons</a>
+            <h4>&copy Adam Laird</h4>
+          </div>
+        </div>
       </div>
     </footer>
 
