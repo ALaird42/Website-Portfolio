@@ -75,7 +75,8 @@ hr{
 }
 
 .img-display{
-  border-radius: 12%
+  border-radius: 12%;
+  display: flex;
 }
 
 ul{
