@@ -63,7 +63,7 @@ hr{
   justify-content: center;
   background-color: #523f2f;
   padding: 3px;
-  border: 3px solid #303036;
+  border: 5px solid #303036;
   color: #919191;
   text-shadow: 1px 1px 2px #211d1c;
 }
@@ -72,7 +72,6 @@ hr{
   background-color: #d3ccc6;
   padding: 3px;
   border: 5px solid #303036;
-  padding: 18px;
 }
 
 .img-display{
@@ -180,7 +179,7 @@ form button {
 
 .group-1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 5px;
 }
 
@@ -201,4 +200,7 @@ a:active      {color: lightgrey}
   form textarea {
     height: 160px;
   }
+  .group-1 {
+    flex-direction: row;
+  }  
 }
