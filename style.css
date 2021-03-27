@@ -41,8 +41,9 @@ h1, h2, h3, p{
 
 img{
   margin: auto;
-  display: block;
+  display: flex;
   padding: 20px;
+  width: 300px;
 }
 
 body{
@@ -76,7 +77,6 @@ hr{
 
 .img-display{
   border-radius: 12%;
-  display: flex;
 }
 
 ul{
@@ -173,7 +173,7 @@ form button {
 
 .item-1 {
   flex: 1;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   margin-top: 10px;
 }
@@ -204,4 +204,7 @@ a:active      {color: lightgrey}
   .group-1 {
     flex-direction: row;
   }  
+  img {
+    width: 450px;
+  }
 }
