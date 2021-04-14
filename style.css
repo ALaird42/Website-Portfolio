@@ -167,7 +167,7 @@ form textarea {
 }
 
 form button {
-    background: #919191;
+    background: #aaa4a4;
     color: #0c1814;
 }
 
@@ -186,7 +186,7 @@ form button {
 
 /*stuf to define link colors*/
 a:link        {color: #10c088}
-a:visited    {color: rgb(109, 9, 180)}
+a:visited    {color: rgb(170, 93, 224)}
 a:hover       {color: #a3a52c}
 a:active      {color: lightgrey}
 
